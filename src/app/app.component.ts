@@ -7,8 +7,16 @@ import { Component, VERSION } from "@angular/core";
 })
 export class AppComponent {
   name = "Angular " + VERSION.major;
+  test : String;
 
-  hitung = [{ output: "*" }];
+  hitung = [["*", "*", "*", "*", "*",],
+    ["*", "*", "*", "*", "*"],
+    ["*", "*", "*", "*", "*"],
+    ["*", "*", "*", "*", "*"],
+    ["*", "*", "*", "*", "*"]
+  ];
+
+  button() {
+    this.test = "berhasil";
+  }
 }
-
-hai sayang
