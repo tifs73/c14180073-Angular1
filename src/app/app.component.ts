@@ -8,8 +8,11 @@ import { Component, VERSION } from "@angular/core";
 export class AppComponent {
   name = "Angular " + VERSION.major;
   test : String;
+  baris : 0;
+  kolom : 0;
 
-  hitung = [["*", "*", "*", "*", "*",],
+  hitung = [
+    ["*", "*", "*", "*", "*"],
     ["*", "*", "*", "*", "*"],
     ["*", "*", "*", "*", "*"],
     ["*", "*", "*", "*", "*"],
