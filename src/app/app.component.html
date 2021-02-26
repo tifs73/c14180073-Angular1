@@ -3,8 +3,11 @@
 	Start editing to see some magic happen :)
 </p>
 
-<div *ngFor="let output of hitung; let i=index">
-	{{output}}
+<div *ngFor="let output of hitung">
+  <div *ngFor="let output1 of output">
+	{{output1}}
+  </div>
+  <br>
 </div>
 
 <p>baris</p>
