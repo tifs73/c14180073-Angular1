@@ -4,15 +4,15 @@
 </p>
 
 <div *ngFor="let star of papan; let i=index">
-  {{star}}
+	{{star}}
 </div>
 
 
 <p>baris</p>
-<input [(ngModel)]="baris" type="text"/>
+<input [(ngModel)]="baris" type="number"/>
 
 <p>kolom</p>
-<input [(ngModel)]="kolom" type="text"/>
+<input [(ngModel)]="kolom" type="number"/>
 <br> <br>
 
 <button (click)="button()">GO</button>{{test}}
