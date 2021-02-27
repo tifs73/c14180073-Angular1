@@ -3,18 +3,16 @@
 	Start editing to see some magic happen :)
 </p>
 
-<div *ngFor="let output of hitung">
-  <div *ngFor="let output1 of output">
-	{{output1}}
-  </div>
-  <br>
+<div *ngFor="let star of papan; let i=index">
+  {{star}}
 </div>
+
 
 <p>baris</p>
 <input [(ngModel)]="baris" type="text"/>
-<br/>
 
 <p>kolom</p>
 <input [(ngModel)]="kolom" type="text"/>
+<br> <br>
 
-<button (click)="button()">test</button>{{test}}
+<button (click)="button()">GO</button>{{test}}
