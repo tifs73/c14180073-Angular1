@@ -3,9 +3,12 @@
 	Start editing to see some magic happen :)
 </p>
 
-<div *ngFor="let star of papan; let i=index">
-	{{star}}
-</div>
+<label *ngFor="let star of papan; let i=index">
+  <label *ngFor="let star1 of star; let i=index">
+	{{star1}}
+</label>
+<br>
+</label>
 
 
 <p>baris</p>
